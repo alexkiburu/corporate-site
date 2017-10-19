@@ -43,7 +43,7 @@ This files contents are outlined below
 
 /*
 =========----------------------------------=========
-1.Template Default Css     
+1.Template Default Css
 =========----------------------------------=========
 */
 
@@ -157,7 +157,7 @@ button {
 
 /*
 =========----------------------------------=========
-2. Template Transition Css 
+2. Template Transition Css
 =========----------------------------------=========
 */
 
@@ -309,7 +309,6 @@ ul.tab-list li.active {
 .explore-btn {
     height: 48px;
     border: 2px solid #fff;
-    color: #fff;
     padding: 0px 35px;
     font-size: 22px;
     border-radius: 30px;
@@ -317,12 +316,14 @@ ul.tab-list li.active {
     text-transform: capitalize;
     line-height: 45px;
     font-weight: 600;
+    background-color: #fff;
+    color: #AF0808;
 }
 
 .explore-btn:nth-child(2n),
 .explore-btn:hover {
     background-color: #fff;
-    color: #AF0808;
+    color: #AF0808 !important;
 }
 
 .explore-btn:nth-child(2n):hover {
@@ -345,7 +346,8 @@ ul.tab-list li.active {
 */
 
 .promo-bg {
-    background-image: url('../images/promo-bg.jpg');
+    /*background-image: url('../images/promo-bg.jpg');*/
+    background-image: url('../images/promo-bg.png');
 }
 
 .promo-bg-2 {
@@ -363,7 +365,8 @@ ul.tab-list li.active {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
+    height: 560px;
 }
 
 
@@ -376,6 +379,7 @@ ul.tab-list li.active {
 .header-area {
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 
 
@@ -387,20 +391,23 @@ ul.tab-list li.active {
 
 .logo {
     width: 100%;
-    padding: 10px 0;
+    padding: 0px 0;
+    /*padding: 10px 0;*/
     -webkit-transition: all .3s ease-in-out 0s;
     transition: all .3s ease-in-out 0s;
 }
 
 .logo a {
-    margin: 10px 0;
+    /*margin: 10px 0;*/
+    margin: 5px 0;
 }
 
 .mainmenu ul.navbar-nav li a {
     color: #242424;
     font-weight: 600;
     text-transform: capitalize;
-    padding: 38px 18px;
+    padding: 28px 18px;
+    /*padding: 38px 18px;*/
 }
 
 .mainmenu ul.navbar-nav li:hover a,
@@ -415,7 +422,7 @@ ul.tab-list li.active {
     height: 100%;
     position: absolute;
     content: '';
-    background-color: rgba(175, 8, 8, .7);
+    /*background-color: rgba(175, 8, 8, .7);*/
     top: 0;
     left: 0;
 }
@@ -437,11 +444,14 @@ ul.tab-list li.active {
 
 .sticky .header-area .logo {
     width: 75%;
-    padding: 14px 0;
+    /*padding: 14px 0;*/
 }
 
 .sticky .main-menu-area .logo a h1 {
     font-size: 33px;
+}
+.sticky .mainmenu ul.navbar-nav li a {
+    padding: 20px 18px;
 }
 
 

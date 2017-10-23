@@ -18,8 +18,8 @@ ul.tab-list li.active:before,
 }
 
 button.switcher-control,
-.mainmenu ul.navbar-nav li:hover a,
-.mainmenu ul.navbar-nav li.active a,
+/*.mainmenu ul.navbar-nav li:hover a,
+.mainmenu ul.navbar-nav li.active a,*/
 .single-service h4,
 .single-feature h4,
 .app-desc h3,
@@ -57,6 +57,7 @@ ul.tab-list li img.img-circle,
 
 .navbar-toggle {
     border: 1px solid #1B81DD;
+    margin-top: -40px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -83,7 +84,8 @@ ul.tab-list li img.img-circle,
 .single-promo-wrap:before,
 .video-content-wrap:before,
 .single-slide-item:before {
-    background-color: rgba(27, 129, 221, .5);
+    /*background-color: rgba(27, 129, 221, .5);*/
+    background-color: rgba(27, 129, 221, .1);
 }
 
 .single-service:hover i {

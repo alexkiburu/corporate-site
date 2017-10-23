@@ -43,7 +43,7 @@ This files contents are outlined below
 
 /*
 =========----------------------------------=========
-1.Template Default Css     
+1.Template Default Css
 =========----------------------------------=========
 */
 
@@ -112,6 +112,7 @@ p {
     color: #575555;
     letter-spacing: .5px;
     line-height: 26px;
+    padding: 5px 20px;
 }
 
 a {
@@ -157,7 +158,7 @@ button {
 
 /*
 =========----------------------------------=========
-2. Template Transition Css 
+2. Template Transition Css
 =========----------------------------------=========
 */
 
@@ -182,12 +183,13 @@ ul.tab-list li.active,
 */
 
 .section-padding {
-    padding: 80px 0;
+    /*padding: 80px 0;*/
+    padding:30px 0;
 }
 
 .section-title h3 {
     margin: 0;
-    margin-bottom: 28px;
+    margin-bottom: 10px;
 }
 
 .section-title p {
@@ -309,7 +311,6 @@ ul.tab-list li.active {
 .explore-btn {
     height: 48px;
     border: 2px solid #fff;
-    color: #fff;
     padding: 0px 35px;
     font-size: 22px;
     border-radius: 30px;
@@ -317,20 +318,32 @@ ul.tab-list li.active {
     text-transform: capitalize;
     line-height: 45px;
     font-weight: 600;
+    background-color: #fff;
+    color: #1B81DD;
+}
+.advert-btn{
+    background-color:#1f2456 !important;
+    color:#fff !important;
+    border:none !important;
+}
+.advert-btn:hover{
+  background-color: #FFF !important;
+  color: #1f2456 !important;
 }
 
-.explore-btn:nth-child(2n),
+/*.explore-btn:nth-child(2n),*/
 .explore-btn:hover {
     background-color: #fff;
-    color: #AF0808;
+    /*color: #AF0808;*/
+    color: #1f2456 !important;
 }
 
-.explore-btn:nth-child(2n):hover {
+/*.explore-btn:nth-child(2n):hover {
     background-color: transparent;
     color: #fff;
-}
+}*/
 
-.screenshot-wrap,
+/*.screenshot-wrap,*/
 .testimonial-wrap,
 .pricing-wrap,
 .team-wrap {
@@ -345,7 +358,8 @@ ul.tab-list li.active {
 */
 
 .promo-bg {
-    background-image: url('../images/promo-bg.jpg');
+    /*background-image: url('../images/promo-bg.jpg');*/
+    background-image: url('../images/promo-bg.png');
 }
 
 .promo-bg-2 {
@@ -363,7 +377,8 @@ ul.tab-list li.active {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
+    height: 560px;
 }
 
 
@@ -376,6 +391,7 @@ ul.tab-list li.active {
 .header-area {
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 
 
@@ -387,25 +403,28 @@ ul.tab-list li.active {
 
 .logo {
     width: 100%;
-    padding: 10px 0;
+    padding: 0px 0;
+    /*padding: 10px 0;*/
     -webkit-transition: all .3s ease-in-out 0s;
     transition: all .3s ease-in-out 0s;
 }
 
 .logo a {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .mainmenu ul.navbar-nav li a {
     color: #242424;
     font-weight: 600;
     text-transform: capitalize;
-    padding: 38px 18px;
+    padding: 25px 18px;
 }
 
 .mainmenu ul.navbar-nav li:hover a,
 .mainmenu ul.navbar-nav li.active a {
-    color: #AF0808;
+    color: #FFF;
+    background-color: #1B81DD;
+      padding: 25px 18px;
 }
 
 .single-promo-wrap:before,
@@ -415,7 +434,7 @@ ul.tab-list li.active {
     height: 100%;
     position: absolute;
     content: '';
-    background-color: rgba(175, 8, 8, .7);
+    /*background-color: rgba(175, 8, 8, .7);*/
     top: 0;
     left: 0;
 }
@@ -437,11 +456,14 @@ ul.tab-list li.active {
 
 .sticky .header-area .logo {
     width: 75%;
-    padding: 14px 0;
+    /*padding: 14px 0;*/
 }
 
 .sticky .main-menu-area .logo a h1 {
     font-size: 33px;
+}
+.sticky .mainmenu ul.navbar-nav li a {
+    padding: 20px 18px;
 }
 
 
@@ -483,6 +505,14 @@ ul.tab-list li.active {
 
 .promo-desc {
     color: #fff;
+    background-color:rgba(0,0,0,.0);
+    padding:10px 15px;
+    border-radius:5px;
+
+    -webkit-transition: background-color 2s ease;
+    -moz-transition: background-color 2s ease;
+    -o-transition: background-color 2s ease;
+    transition: background-color 2s ease;
 }
 
 .promo-desc p {
@@ -520,7 +550,9 @@ ul.tab-list li.active {
 *    Slider Css
 *    ======================
 */
-
+.active .promo-desc{
+    background-color:rgba(0,0,0,.7);
+}
 .owl-content h2,
 .owl-content h3,
 .owl-content p,
@@ -672,6 +704,38 @@ ul.tab-list li.active {
     box-shadow: 0 0 0 0 transparent;
 }
 
+.s1 i{
+  background-color:#1B81DD !important;
+  color:#FFF !important;
+}
+
+.s2 i{
+  background-color:#1DE206 !important;
+  color:#FFF !important;
+}
+
+.s3 i{
+  background-color:#FFF000 !important;
+  color:#FFF !important;
+}
+.s4 i{
+  background-color:#F704A2 !important;
+  color:#FFF !important;
+}
+
+.s2:hover i {
+    box-shadow: 0 0 0 10px rgba(29, 226, 6, .3) !important;
+}
+
+.s3:hover i {
+    box-shadow: 0 0 0 10px rgba(255, 240, 0, .3) !important;
+}
+
+.s4:hover i {
+    box-shadow: 0 0 0 10px rgba(247, 4, 162, .3) !important;
+}
+
+.single-service h4{color:#666 !important}
 .single-service h4,
 .single-feature h4 {
     margin: 20px 0;
@@ -720,7 +784,7 @@ ul.tab-list li.active {
 */
 
 .single-feature {
-    margin-top: 70px;
+    margin-top: 30px;
     padding: 0 18px;
 }
 
@@ -764,7 +828,8 @@ ul.tab-list li.active {
 }
 
 .app-download-img {
-    margin-top: 75px;
+    /*margin-top: 75px;*/
+    margin-top: 0px;
 }
 
 

@@ -2,9 +2,8 @@
 ***************************************************************
 ***************************************************************
 
-Template Name  : EXPLORE | One Page App Landing Page
-Author         : Golam
-Author URI     : https://golamnabiwp.com/user/templatehut/portfolio
+Author         : GlosoftGroup Limites
+Author URI     : https://www.glosoftgroup.com
 File           : Active.js
 
 ***************************************************************

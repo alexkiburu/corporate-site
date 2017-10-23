@@ -18,8 +18,8 @@ ul.tab-list li.active:before,
 }
 
 button.switcher-control,
-.mainmenu ul.navbar-nav li:hover a,
-.mainmenu ul.navbar-nav li.active a,
+/*.mainmenu ul.navbar-nav li:hover a,
+.mainmenu ul.navbar-nav li.active a,*/
 .single-service h4,
 .single-feature h4,
 .app-desc h3,

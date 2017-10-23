@@ -715,7 +715,7 @@ ul.tab-list li.active {
 }
 
 .s3 i{
-  background-color:#FFF000 !important;
+  background-color:#ff3200 !important;
   color:#FFF !important;
 }
 .s4 i{
@@ -728,7 +728,7 @@ ul.tab-list li.active {
 }
 
 .s3:hover i {
-    box-shadow: 0 0 0 10px rgba(255, 240, 0, .3) !important;
+    box-shadow: 0 0 0 10px rgba(255, 50, 0, .3) !important;
 }
 
 .s4:hover i {
